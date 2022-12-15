@@ -79,6 +79,7 @@ void _nop(stack_t **doubly, unsigned int cline)
  * @cline: line number;
  * Return: no return
  */
+
 void _sub(stack_t **doubly, unsigned int cline)
 {
 	int m = 0;

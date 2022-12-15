@@ -37,6 +37,7 @@ stack_t *add_dnodeint_end(stack_t **head, const int n)
 	return (aux->next);
 }
 
+
 /**
  *add_dnodeint - add a note at the begining of the doubly link list
  *@head: first position of linked list
@@ -78,6 +79,7 @@ stack_t *add_dnodeint(stack_t **head, const int n)
  * @head: head of the list
  * Return: no return
  */
+
 void free_dlistint(stack_t *head)
 {
 	stack_t *tmp;

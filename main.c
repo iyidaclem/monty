@@ -2,17 +2,6 @@
 
 global_t vglo;
 
-/**
- * free_vglo - frees the global variables
- *
- * Return: no return
- */
-void free_vglo(void)
-{
-	free_dlistint(vglo.head);
-	free(vglo.buffer);
-	fclose(vglo.fd);
-}
 
 /**
  * start_vglo - initializes the global variables
@@ -28,6 +17,19 @@ void start_vglo(FILE *fd)
 	vglo.head = NULL;
 	vglo.fd = fd;
 	vglo.buffer = NULL;
+}
+
+
+/**
+ * free_vglo - frees the global variables
+ *
+ * Return: no return
+ */
+void free_vglo(void)
+{
+	free_dlistint(vglo.head);
+	free(vglo.buffer);
+	fclose(vglo.fd);
 }
 
 /**

@@ -73,6 +73,7 @@ void _mul(stack_t **doubly, unsigned int cline)
  * @cline: line number;
  * Return: no return
  */
+
 void _mod(stack_t **doubly, unsigned int cline)
 {
 	int m = 0;

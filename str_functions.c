@@ -25,6 +25,7 @@ int _strcmp(char *s1, char *s2)
  * @c: char to find
  * Return: 1 if success 0 if not
  */
+
 int _sch(char *s, char c)
 {
 	int cont = 0;
@@ -49,6 +50,7 @@ int _sch(char *s, char c)
  * @d: delimiters
  * Return: first partition
  */
+
 char *_strtoky(char *s, char *d)
 {
 	static char *ultimo;

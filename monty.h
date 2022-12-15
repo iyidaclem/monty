@@ -19,6 +19,7 @@
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO ALX project
  */
+
 typedef struct stack_s
 {
 	int n;

@@ -7,6 +7,7 @@
  *
  * Return: pointer to the function that executes the opcode
  */
+
 void (*get_opcodes(char *opc))(stack_t **stack, unsigned int line_number)
 {
 	instruction_t instruct[] = {

@@ -106,4 +106,4 @@ When there is no errors, `monty` returns `0`. Otherwise, returns `1`
 
 ## Authors
 * Clement Iyida: [Twitter](https://twitter.com/IyidaIk) - [GitHub](https://github.com/iyidaclem)
-* Joseph Ndubuisi: [Twitter](https://twitter.com/ndujosben) - [GitHub](https://github.com/luischaparroc)
+* Joseph Ndubuisi: [Twitter](https://twitter.com/ndujosben) - [GitHub](https://github.com/ndubuisijosephalx)

@@ -57,6 +57,7 @@ typedef struct globals
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO ALX project
  */
+
 typedef struct instruction_s
 {
 	char *opcode;
